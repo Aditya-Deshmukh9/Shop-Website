@@ -5,7 +5,6 @@ import { addToCart } from "../redux/features/cartSlice";
 import toast from "react-hot-toast";
 
 const ProductCard = ({ id, img, name, price, discount }) => {
-
   // redux logic
   const dispatch = useAppDispatch();
 
@@ -30,7 +29,7 @@ const ProductCard = ({ id, img, name, price, discount }) => {
         <img
           src={img}
           alt="img"
-          className=" h-56 2xl:h-64 rounded-t-xl w-full"
+          className=" h-56 2xl:h-64 object-contain rounded-t-xl w-full"
         />
       </div>
       <div className=" flex flex-col justify-center items-center">

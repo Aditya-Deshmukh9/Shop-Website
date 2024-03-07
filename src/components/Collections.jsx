@@ -1,4 +1,3 @@
-import React from "react";
 import img from "../assets/img/collection.png";
 
 const Collections = () => {
